@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>语熙 · DUIX</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <main>
+    <section class="stage">
+      <canvas id="view" width="540" height="960"></canvas>
+    </section>
+    <section class="panel">
+      <h1>语熙</h1>
+      <p id="status">正在加载模型…</p>
+      <label class="file">
+        选择 WAV
+        <input id="file" type="file" accept="audio/wav,.wav" />
+      </label>
+      <button id="play" disabled>播放</button>
+      <audio id="audio"></audio>
+    </section>
+  </main>
+  <script src="/app.js" type="module"></script>
+</body>
+</html>
