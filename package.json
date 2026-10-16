@@ -1,0 +1,11 @@
+{
+  "name": "duix-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "@dhmodel/duix-sdk": "file:../duix-sdk"
+  }
+}
