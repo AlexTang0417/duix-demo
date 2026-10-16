@@ -2,6 +2,8 @@
 
 浏览器页面，驱动逻辑来自本地包 `@dhmodel/duix-sdk`。
 
+![demo](demo.gif)
+
 ```bash
 cd js/duix-demo
 npm install
